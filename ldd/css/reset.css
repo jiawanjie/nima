@@ -1,0 +1,48 @@
+@charset"gb2312;
+/*css Document*/
+*{margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6,h7,table,td,tr,th,p,dt,dl,dd{margin:0;pading:0;}
+
+body{
+	font-size:12px;
+	}
+img{
+	border:none;margin:0;
+	}
+ul{
+	margin:0px;
+	}
+li{
+	list-style:none;
+	}
+input,select,textarea{
+	outline:none;
+	border:none; 
+	background:none;
+	}
+textarea{
+	resize:none;
+	}
+a{
+	text-decoration:none;
+	color:#565656;
+	}
+fieldset{
+	margin:0 auto;
+	}
+
+/**public **/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	}
+.clearfix{
+	zoom:1;
+	}
+.fl{
+	float:left;
+	}
+.fr{
+	float:right;
+	}
